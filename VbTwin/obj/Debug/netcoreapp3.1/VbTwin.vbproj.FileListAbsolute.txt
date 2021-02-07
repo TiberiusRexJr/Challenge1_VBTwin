@@ -1,0 +1,12 @@
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\bin\Debug\netcoreapp3.1\VbTwin.exe
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\bin\Debug\netcoreapp3.1\VbTwin.deps.json
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\bin\Debug\netcoreapp3.1\VbTwin.runtimeconfig.json
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\bin\Debug\netcoreapp3.1\VbTwin.runtimeconfig.dev.json
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\bin\Debug\netcoreapp3.1\VbTwin.dll
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\bin\Debug\netcoreapp3.1\VbTwin.pdb
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\obj\Debug\netcoreapp3.1\VbTwin.AssemblyInfoInputs.cache
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\obj\Debug\netcoreapp3.1\VbTwin.AssemblyInfo.vb
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\obj\Debug\netcoreapp3.1\VbTwin.vbproj.CoreCompileInputs.cache
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\obj\Debug\netcoreapp3.1\VbTwin.dll
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\obj\Debug\netcoreapp3.1\VbTwin.pdb
+C:\Users\rouni\Desktop\CODE\VbTwin\VbTwin\obj\Debug\netcoreapp3.1\VbTwin.genruntimeconfig.cache

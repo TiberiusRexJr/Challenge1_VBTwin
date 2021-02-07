@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>VbTwin</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="ConsoleUI\" />
+    <Folder Include="Database\" />
+    <Folder Include="FileOps\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+</Project>
