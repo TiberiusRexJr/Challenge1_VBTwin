@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\VbTwin.vbproj",
+      "projectUniqueName": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
       "projectName": "VbTwin",
-      "projectPath": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\VbTwin.vbproj",
+      "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
       "packagesPath": "C:\\Users\\rouni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\obj\\",
+      "outputPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
