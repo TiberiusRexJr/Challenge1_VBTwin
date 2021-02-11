@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ConsoleUI\" />
     <Folder Include="Database\" />
     <Folder Include="FileOps\" />
   </ItemGroup>
