@@ -9,10 +9,14 @@
             Select Case messageType.Value
                 Case "Success"
                     Console.ForegroundColor = ConsoleColor.Green
+                    Exit Select
                 Case "Failure"
                     Console.ForegroundColor = ConsoleColor.Red
+                    Exit Select
                 Case "CallToAction"
                     Console.ForegroundColor = ConsoleColor.Blue
+                    Exit Select
+
             End Select
 
         End Sub
