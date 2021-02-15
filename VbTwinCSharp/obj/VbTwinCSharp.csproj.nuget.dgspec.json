@@ -1,27 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj": {}
+    "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwinCSharp\\VbTwinCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\Technical1\\Technical1\\Technical1.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\Technical1\\Technical1\\Technical1.csproj",
-        "projectName": "Technical1",
-        "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\Technical1\\Technical1\\Technical1.csproj"
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
-    "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj": {
+    "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwinCSharp\\VbTwinCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
-        "projectName": "VbTwin",
-        "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
+        "projectUniqueName": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwinCSharp\\VbTwinCSharp.csproj",
+        "projectName": "VbTwinCSharp",
+        "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwinCSharp\\VbTwinCSharp.csproj",
         "packagesPath": "C:\\Users\\rouni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\obj\\",
+        "outputPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwinCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,11 +31,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\Technical1\\Technical1\\Technical1.csproj": {
-                "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\Technical1\\Technical1\\Technical1.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

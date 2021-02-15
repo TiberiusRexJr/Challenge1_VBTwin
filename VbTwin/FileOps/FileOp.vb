@@ -1,7 +1,7 @@
 ﻿Imports System.Collections.Generic
 Imports System.IO
 Imports VbTwin.Model
-                  imp
+
 Namespace FileOps
     Public Class FileOp
 
@@ -20,7 +20,7 @@ Namespace FileOps
 
             Return outputDir
         End Function
-
 #End Region
+
     End Class
 End Namespace

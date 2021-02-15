@@ -1,29 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Technical1/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Technical1.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Technical1.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Technical1/1.0.0": {
-      "type": "project",
-      "path": "../Technical1/Technical1/Technical1.csproj",
-      "msbuildProject": "../Technical1/Technical1/Technical1.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Technical1 >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\rouni\\.nuget\\packages\\": {},
@@ -32,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
-      "projectName": "VbTwin",
-      "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
+      "projectUniqueName": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwinCSharp\\VbTwinCSharp.csproj",
+      "projectName": "VbTwinCSharp",
+      "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwinCSharp\\VbTwinCSharp.csproj",
       "packagesPath": "C:\\Users\\rouni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\obj\\",
+      "outputPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwinCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -56,11 +38,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\Technical1\\Technical1\\Technical1.csproj": {
-              "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\Technical1\\Technical1\\Technical1.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
