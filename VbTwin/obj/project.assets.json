@@ -1,28 +1,12 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Technical1/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Technical1.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Technical1.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Technical1/1.0.0": {
-      "type": "project",
-      "path": "../Technical1/Technical1/Technical1.csproj",
-      "msbuildProject": "../Technical1/Technical1/Technical1.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Technical1 >= 1.0.0"
+      "C:\\Users\\rouni\\Desktop\\VbTwin\\Technical1\\Technical1\\Technical1.csproj"
     ]
   },
   "packageFolders": {
@@ -32,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
+      "projectUniqueName": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\VbTwin.vbproj",
       "projectName": "VbTwin",
-      "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
+      "projectPath": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\VbTwin.vbproj",
       "packagesPath": "C:\\Users\\rouni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\obj\\",
+      "outputPath": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -57,8 +41,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\Technical1\\Technical1\\Technical1.csproj": {
-              "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\Technical1\\Technical1\\Technical1.csproj"
+            "C:\\Users\\rouni\\Desktop\\VbTwin\\Technical1\\Technical1\\Technical1.csproj": {
+              "projectPath": "C:\\Users\\rouni\\Desktop\\VbTwin\\Technical1\\Technical1\\Technical1.csproj"
             }
           }
         }
@@ -90,5 +74,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\rouni\\Desktop\\VbTwin\\Technical1\\Technical1\\Technical1.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\rouni\\Desktop\\VbTwin\\Technical1\\Technical1\\Technical1.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

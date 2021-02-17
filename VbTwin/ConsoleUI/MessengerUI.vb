@@ -1,4 +1,6 @@
-﻿Namespace ConsoleUI
+﻿Imports System.Threading
+
+Namespace ConsoleUI
     Public Class MessengerUI
         Public Property MessageType As MessageType = Nothing
 
@@ -19,7 +21,20 @@
 
             End Select
 
+
+            Console.WriteLine(Environment.NewLine)
+            Console.WriteLine(message)
+            Console.WriteLine(Environment.NewLine)
+            Console.ResetColor()
         End Sub
+
+        Public Sub ConsolePause()
+            Dim miliseconds As Integer = 1000
+            Thread.Sleep(miliseconds)
+        End Sub
+
 #End Region
+
+
     End Class
 End Namespace

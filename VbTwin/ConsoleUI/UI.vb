@@ -5,6 +5,7 @@ Imports System.Windows.Forms
 
 Namespace ConsoleUI
     Public Class UI
+
 #Region " Variables"
 
         Private _parse As Parsing = New Parsing()
@@ -18,7 +19,7 @@ Namespace ConsoleUI
 #End Region
 
 #Region "Main Functionality"
-
+        ''Missing need to create actual functions in thier repsects classes first
 #End Region
 
 #Region "Get Output Dir & File Path"
@@ -33,16 +34,23 @@ Namespace ConsoleUI
                 Dim form As New Form()
                 form.TopMost = True
 
+                If folderDlg.ShowDialog(form) = DialogResult.OK Then
+                    outputDir = folderDlg.SelectedPath
+                End If
 
 
 
             Catch ex As Exception
-
+                System.Console.WriteLine(ex.Message)
             Finally
 
             End Try
 
+            If String.IsNullOrEmpty(outputDir) Then
+                _ui.ConsoleMessage(MessageType.)
+            End If
 
+            Return outputDir
         End Function
 #End Region
 
