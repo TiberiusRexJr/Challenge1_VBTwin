@@ -1,4 +1,4 @@
-﻿Imports System.Data.Oledb
+﻿Imports System.Data.OleDb
 Imports VbTwin.Model
 
 Namespace Database
@@ -7,9 +7,8 @@ Public Class Db
 
 #Region "Variables"
 
- Private readonly _dbFileName As String="Billing.mdb"
- Private _conn As OleDbConnection= Empty
-
+        Private ReadOnly _dbFileName As String = "Billing.mdb"
+        Private _conn As OleDbConnection = Nothing
 #End Region
 
 #Region "Properties"
@@ -17,8 +16,8 @@ Public Class Db
 
 #End Region
 
-#Region  "Constructor"
-    Public Sub New()
+#Region "Constructor"
+        Public Sub New()
         SetDbConnection()
     End Sub
 #End Region
@@ -28,16 +27,40 @@ Public Class Db
         ''' <summary>
         ''' 
         ''' </summary>
+        Private Sub SetDbConnection()
+
+            Dim b = AppDomain.CurrentDomain.BaseDirectory
+            Dim dbRoot = b.Replace("\bin\Debug\", "/App_Data/")
+
+            Dim conBuilder As OleDbConnectionStringBuilder = New OleDbConnectionStringBuilder()
+
+            conBuilder.Provider = "Microsoft.ACE.OLEDB.12.0"
+            conBuilder.DataSource = dbRoot + _dbFileName
+            conBuilder.PersistSecurityInfo = True
+
+            Try
+                _conn = New OleDbConnection(conBuilder.ConnectionString)
+            Catch ex As Exception
+
+            End Try
+
+        End Sub
+
+
+
+
+        ''' <summary>
+        ''' 
+        ''' </summary>
         ''' <param name="dataList"></param>
         ''' <returns></returns>
         Public Function PutData(ByVal dataList As List(of BillHeader))
 
         Dim status As boolean=Nothing
-        Dim _ =AppDomain.CurrentDomain.BaseDirectory
 
-                
 
-    End Function
+
+        End Function
 
 
 

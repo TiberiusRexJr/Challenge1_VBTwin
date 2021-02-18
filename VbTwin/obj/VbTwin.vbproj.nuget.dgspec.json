@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\VbTwin.vbproj": {}
+    "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\VbTwin.vbproj": {
+    "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\VbTwin.vbproj",
+        "projectUniqueName": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
         "projectName": "VbTwin",
-        "projectPath": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\VbTwin.vbproj",
+        "projectPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
         "packagesPath": "C:\\Users\\rouni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\obj\\",
+        "outputPath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,11 +31,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\rouni\\Desktop\\VbTwin\\Technical1\\Technical1\\Technical1.csproj": {
-                "projectPath": "C:\\Users\\rouni\\Desktop\\VbTwin\\Technical1\\Technical1\\Technical1.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -47,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

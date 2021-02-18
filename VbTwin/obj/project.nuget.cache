@@ -1,18 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "TCqOjnjiJ8e5KHDGuC+oLq1XNcBUhU5uW4gwjBZjr7NqvCCWvLtAVtHV1u8riTzTEtFLK4+n4Gx6nSv6qr2vwQ==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\rouni\\Desktop\\VbTwin\\VbTwin\\VbTwin.vbproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\rouni\\Desktop\\VbTwin\\Technical1\\Technical1\\Technical1.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\rouni\\Desktop\\VbTwin\\Technical1\\Technical1\\Technical1.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "dgSpecHash": "kvuajgOsIUNOiz6jJrVfvHX/z095Vp49CBVK3+a0ze/iRqZcMlF3EuHuzUdz4ZOvs7HsgCjy1lNqygxpTlDiiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rouni\\Desktop\\CODE\\VbTwin\\VbTwin\\VbTwin.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rouni\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\system.data.oledb\\5.0.0\\system.data.oledb.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0\\system.diagnostics.performancecounter.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\rouni\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
 }
