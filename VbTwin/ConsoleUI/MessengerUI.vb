@@ -37,4 +37,5 @@ Namespace ConsoleUI
 
 
     End Class
+
 End Namespace
