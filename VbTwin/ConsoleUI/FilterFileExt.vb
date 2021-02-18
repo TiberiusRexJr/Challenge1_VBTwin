@@ -25,5 +25,6 @@
             End Get
         End Property
 #End Region
+
     End Class
 End Namespace

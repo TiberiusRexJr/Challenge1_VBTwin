@@ -23,7 +23,7 @@ Namespace ConsoleUI
 #Region "Main Functionality"
 
         Public Sub MainLoop()
-
+            'need to add shit here
         End Sub
 #End Region
 
