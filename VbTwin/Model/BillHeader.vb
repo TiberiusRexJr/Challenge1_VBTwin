@@ -1,5 +1,6 @@
 ﻿Namespace Model
     Public Class BillHeader
+
 #Region "Constants"
         Public ReadOnly SERVICE_ADDRESS As String = "1655 Ruben M Torres Blvd STE 101, Brownsville, TX 78526"
 #End Region
@@ -15,6 +16,9 @@
         Public Property BillDate As Date = Date.Today.ToString("MM/dd/yyyy")
         Public Property DueDate As Date = Date.Today.ToString("MM/dd/yyyy")
         Public Property AddressInformation As AddressInformation = Nothing
+        Public Property BillInfo As Bill = Nothing
+
+
 
 #End Region
 
@@ -34,8 +38,10 @@
 
 #Region "Constructor"
         Public Sub BillHeader()
-
+            BillInfo = New Bill()
+            AddressInformation = New AddressInformation()
         End Sub
 #End Region
+
     End Class
 End Namespace
