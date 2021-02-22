@@ -3,7 +3,7 @@ Imports System.IO
 Imports VbTwin.Model
 
 Namespace FileOps
-    Public Class FileOp
+    Public Class FileOpUtil
 
 #Region "Methods"
 
@@ -15,11 +15,7 @@ Namespace FileOps
         End Function
 
 
-        Public Function GetOutputDir() As String
-            Dim outputDir As String = String.Empty
 
-            Return outputDir
-        End Function
 #End Region
 
     End Class

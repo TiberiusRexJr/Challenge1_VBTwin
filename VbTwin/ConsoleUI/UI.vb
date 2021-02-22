@@ -12,7 +12,7 @@ Namespace ConsoleUI
 
         Private _parse As Parsing = New Parsing()
         Private _io As Io = New Io()
-        Private _ut As FileOp = New FileOp
+        Private _ut As FileOpUtil = New FileOpUtil
         Private _bh As BillHeader = New BillHeader()
         Private _ui As MessengerUI = New MessengerUI()
         Private _db As Db = New Db()
